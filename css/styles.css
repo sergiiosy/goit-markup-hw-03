@@ -313,31 +313,39 @@ img {
   padding: 100px 0;
 }
 
-.footer-info-content {
+.footer .container {
   display: flex;
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  flex-direction: column;
 }
 
 .footer-logo {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
+  display: inline-block;
+  width: 120px;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #404bbf;
-  display: inline-block;
   margin-bottom: 16px;
 }
 
-.footer-logo-color {
+.footer-logo-studio {
   color: #f4f4fd;
 }
 
 .footer-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: #f4f4fd;
   max-width: 264px;
 }
 /* --------------------PORTFOLIO PAGE--------------------- */
