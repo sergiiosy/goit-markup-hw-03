@@ -120,6 +120,7 @@ img {
 .header-list {
   margin-left: 76px;
   display: flex;
+  align-items: center;
 }
 .header-list .item + .item {
   margin-left: 40px;
