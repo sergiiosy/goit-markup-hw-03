@@ -355,6 +355,10 @@ img {
   display: inline-block;
   margin-bottom: 16px;
 }
+
+.footer-paragraph {
+  max-width: 264px;
+}
 /* --------------------PORTFOLIO PAGE--------------------- */
 
 .section-application {
