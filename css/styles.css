@@ -145,10 +145,6 @@ img {
   color: #2e2f42;
 }
 
-.header-list {
-  display: flex;
-}
-
 .header-list .item {
   margin-right: 40px;
 }
