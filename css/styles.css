@@ -1,11 +1,12 @@
 :root {
 }
+
 body {
   font-family: "Roboto", sans-serif;
-
   background-color: #ffffff;
   color: #434455;
 }
+
 h1,
 h2,
 h3,
@@ -13,21 +14,24 @@ p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
+
 .link {
   text-decoration: none;
 }
+
 .list {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 0px;
-
   list-style: none;
 }
+
 .second-title {
   font-weight: 700;
   font-size: 36px;
@@ -35,18 +39,18 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
   color: #2e2f42;
 }
+
 .subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
   color: #2e2f42;
 }
+
 .title-hidden {
   position: absolute;
   width: 1px;
@@ -59,14 +63,15 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .button {
   display: inline-block;
-
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -74,27 +79,26 @@ img {
   letter-spacing: 0.04em;
   text-align: center;
   cursor: pointer;
-
   border-radius: 4px;
   border-width: 1px;
   border-style: solid;
   border-color: transparent;
 }
+
 .logo {
-    display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    margin-right: 76px; /* Added style */
-  
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  
-    color: #4d5ae5;
-  }
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 76px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
 .container {
   width: 1158px;
   margin-left: auto;
@@ -102,6 +106,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 /* --------------------MAIN PAGE--------------------- */
 
 /* ----------------------HEADER--------------------- */
@@ -109,67 +114,75 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
+
 .header > .container {
   display: flex;
 }
+
 .header-navigation {
-    display: flex;
-    align-items: center; /* Added style for vertical alignment */
-    gap: 40px; /* Added style for spacing between menu items */
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
+
 .header .logo-second-part {
-    color: #2e2f42;
-  }
-  
-  .header-list {
-    display: flex;
-  }
-  
-  .header-list .item {
-    margin-right: 40px; /* Changed style to margin-right */
-  }
-  
-  .header-list .item:last-child {
-    margin-right: 0; /* Added style to remove margin-right from the last item */
-  }
-  
-  .header-link {
-    display: inline-block;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    transition: color 0.3s ease-in-out;
-  }
+  color: #2e2f42;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-list .item {
+  margin-right: 40px;
+}
+
+.header-list .item:last-child {
+  margin-right: 0;
+}
+
+.header-link {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  transition: color 0.3s ease-in-out;
+}
+
 .header-link:is(:hover, :focus) {
   color: #404bbf;
 }
+
 .address {
   margin-left: auto;
-
   font-style: normal;
 }
+
 .address-list {
   display: flex;
 }
+
 .address-list .item + .item {
   margin-left: 40px;
 }
+
 .address-list .address-link {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-
   color: currentColor;
 }
+
 .address-link {
   display: inline-block;
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
 .address-link:is(:hover, :focus) {
   color: #404bbf;
 }
@@ -182,15 +195,16 @@ img {
   background-color: #2e2f42;
   text-align: center;
 }
+
 .section-hero > .container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .hero-title {
   margin-left: auto;
   margin-right: auto;
-
   width: 496px;
   font-weight: 700;
   font-size: 56px;
@@ -198,22 +212,21 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+
 .hero-button {
   margin-top: 48px;
   padding-left: 31px;
   padding-right: 31px;
   padding-top: 15px;
   padding-bottom: 15px;
-
   color: #ffffff;
-
   background-color: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+
 .hero-button:is(:hover, :focus) {
   background-color: #404bbf;
 }
-
 /* --------------------ADVANTAGES--------------------- */
 
 .section-advantages {
