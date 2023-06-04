@@ -311,40 +311,40 @@ img {
 
 
 .footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: #2e2f42;
-  }
-  .footer .container {
-    display: flex;
-  }
-  .footer-info-content {
-    width: 264px;
-  }
-  .footer-text {
-    color: #f4f4fd;
-  }
-  
-  .footer .logo-second-part {
-    color: #f4f4fd;
-  }
-  .footer .logo {
-    padding: 0px;
-    margin-bottom: 16px;
-  }
-  .footer-socials-content {
-    margin-left: 120px;
-    width: 208px;
-  }
-  .footer-text-medium {
-    margin-bottom: 16px;
-  
-    font-weight: 500;
-    color: #ffffff;
-  }
-  .footer-socials-list .socials-item + .socials-item {
-    margin-left: 16px;
-  }
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #2e2f42;
+}
+.footer .container {
+  display: flex;
+}
+.footer-info-content {
+  width: 264px;
+}
+.footer-text {
+  color: #f4f4fd;
+}
+
+.footer .logo-second-part {
+  color: #f4f4fd;
+}
+.footer .logo {
+  padding: 0px;
+  margin-bottom: 16px;
+}
+.footer-socials-content {
+  margin-left: 120px;
+  width: 208px;
+}
+.footer-text-medium {
+  margin-bottom: 16px;
+
+  font-weight: 500;
+  color: #ffffff;
+}
+.footer-socials-list .socials-item + .socials-item {
+  margin-left: 16px;
+}
 /* --------------------PORTFOLIO PAGE--------------------- */
 
 .section-application {
