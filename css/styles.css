@@ -310,21 +310,21 @@ img {
 /* ----------------------FOOTER--------------------- */
 
 .footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: #2e2f42;
-}
-.footer .content {
-  width: 264px;
-}
-.footer-text {
-  color: #f4f4fd;
-}
+    /* Стилі для футера */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #2e2f42;
+  }
 
-.footer .logo-second-part {
-  color: #f4f4fd;
-}
+  .footer .content {
+    /* Стилі для контенту в футері */
+    width: 264px;
+  }
 
+  .footer-text {
+    /* Стилі для тексту в футері */
+    color: #f4f4fd;
+  }
 /* --------------------PORTFOLIO PAGE--------------------- */
 
 .section-application {
