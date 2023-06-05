@@ -133,12 +133,16 @@ img {
 
 .header>.container {
   display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  align-items: center;
 }
 
 .header-navigation {
   display: flex;
   align-items: center;
   gap: 40px;
+  flex-direction: row;
 }
 
 .header .logo-second-part {
