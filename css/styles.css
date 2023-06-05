@@ -32,19 +32,16 @@ img {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(3, calc((100% - 2 * 24px) / 3));
-  gap: 40px;
-  /* Updated to set the gap between list items to 40px */
+  column-gap: 24px;
   row-gap: 48px;
 }
 
 .list .item {
-  margin-right: 40px;
-  /* Added margin-right of 40px for list items */
+  margin-right: 24px;
 }
 
 .list .item:nth-child(3n) {
   margin-right: 0;
-  /* Resetting margin-right for every 3rd list item */
 }
 
 .list .item:nth-last-child(-n + 3) {
@@ -178,17 +175,17 @@ img {
   color: #404bbf;
 }
 
-.address {
-  margin-left: auto;
-  font-style: normal;
-}
-
 .address-list {
   display: flex;
+  gap: 40px;
 }
 
-.address-list .item+.item {
-  margin-left: 40px;
+.address-list .item {
+  margin-right: 40px;
+}
+
+.address-list .item:last-child {
+  margin-right: 0;
 }
 
 .address-list .address-link {
